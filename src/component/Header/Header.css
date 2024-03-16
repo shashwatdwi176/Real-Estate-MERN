@@ -17,3 +17,13 @@
 .h-menu>*:hover{
     cursor:pointer;
 }
+
+.menu-icon{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .menu-icon{
+        display: block;
+    }
+}
